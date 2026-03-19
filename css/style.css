@@ -154,19 +154,19 @@ margin-top:50px;
 }
 
 .teslakan__nasted{
-    /* width: 100%; */
     height: 450px;
     display: flex;
-}
-.teslakan__nasted.me{
-    background-color: aqua;
-    height: 100%;
-    /* flex: 1; */
-    
-}
-.teslakan__nasted>.nkar{
-    background-color: #0C4761;
-    /* flex: 1; */
-    height: 100%;
+    gap: 20px;
 }
 
+.teslakan__nasted > .nkar{
+    background-color: #0C4761;
+    height: 100%;
+    flex: 1;
+}
+
+.teslakan__nasted > .tes{
+    background-color: aqua;
+    height: 100%;
+    flex: 1;
+}
